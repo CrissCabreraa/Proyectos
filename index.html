@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
+</head>
+<body>
+
+    <header class="conteiner">
+        <a href="/" class="logo">
+            <img src="img/Pokédex_logo.png" alt="Logo Pokedex">
+        </a>
+        <form>
+            <div class="formulario-grupo">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icono-buscar">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>  
+                  <input type="search" placeholder="Buscar Pokemon">        
+            </div>
+            <button class="boton-bucar">Buscar</button>
+        </form>
+    </header>
+ 
+    <div class="conteiner-filtro conteiner">
+        <div class="icono-filtro">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icono-filtro">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+              </svg>
+              <span>Filtrar</span>
+        </div>
+    </div>
+
+
+    <main class="card-list-pokemon conteiner">
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="Bulbasaur">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 1</span>
+                <h3>Bulbasaur</h3>
+                <div class="tarjeta-tipo">
+                    <span class="grass">Planta.</span>
+                    <span class="poison">Veneno.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt="Ivysaur">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 2</span>
+                <h3>Ivysaur</h3>
+                <div class="tarjeta-tipo">
+                    <span class="grass">Planta.</span>
+                    <span class="poison">Veneno.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt="Venusaur">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 3</span>
+                <h3>Venusaur</h3>
+                <div class="tarjeta-tipo">
+                    <span class="grass">Planta.</span>
+                    <span class="poison">Veneno.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt="Charmander">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 4</span>
+                <h3>Charmander</h3>
+                <div class="tarjeta-tipo">
+                    <span class="fire">Fuego.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" alt="Charmeleon">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 5</span>
+                <h3>Charmeleon</h3>
+                <div class="tarjeta-tipo">
+                    <span class="fire">Fuego.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png" alt="Charizard">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 6</span>
+                <h3>Charizard</h3>
+                <div class="tarjeta-tipo">
+                    <span class="fire">Fuego.</span>
+                    <span class="flying">Volador.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" alt="Squirtle">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 7</span>
+                <h3>Squirtle</h3>
+                <div class="tarjeta-tipo">
+                    <span class="water">Agua.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png" alt="Wartortle">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 8</span>
+                <h3>Squirtle</h3>
+                <div class="tarjeta-tipo">
+                    <span class="water">Agua.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" alt="Blastoise">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 9</span>
+                <h3>Blastoise</h3>
+                <div class="tarjeta-tipo">
+                    <span class="water">Agua.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png" alt="Caterpie">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 10</span>
+                <h3>Caterpie</h3>
+                <div class="tarjeta-tipo">
+                    <span class="bug">Bicho.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png" alt="Metapod">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 11</span>
+                <h3>Metapod</h3>
+                <div class="tarjeta-tipo">
+                    <span class="bug">Bicho.</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="pokemon.html" class="card-pokemon">
+            <div class="card-img">
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png" alt="Butterfree">
+            </div>
+            <div class="card-info">
+                <span class="pokemon-id">N° 12</span>
+                <h3>Butterfree</h3>
+                <div class="tarjeta-tipo">
+                    <span class="bug">Bicho.</span>
+                    <span class="flying">Volador.</span>
+                </div>
+            </div>
+        </a>
+
+    </main>
+
+    <div class="conteiner-filtros">
+        <div class="filtros-por-tipo">
+            <span>Tipo</span>
+             
+            <div class="grupo-tipo">
+                <input type="checkbox" name="grass" id="grass">
+                <label for="grass">Planta</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="fire" id="fire">
+                <label for="fire">Fuego</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="bug" id="bug">
+                <label for="bug">Bicho</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="dragon" id="dragon">
+                <label for="dragon">Dragon</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="fairy" id="fairy">
+                <label for="fairy">Hada</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="ghost" id="ghost">
+                <label for="ghost">Fantasma</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="earth" id="earth">
+                <label for="earth">Tierra</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="normal" id="normal">
+                <label for="normal">Normal</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="Psiquic" id="Psiquic">
+                <label for="Psiquic">Psiquico</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="iron" id="iron">
+                <label for="iron">Acero</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="sinister" id="sinister">
+                <label for="sinister">Siniestro</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="electric" id="electric">
+                <label for="electric">Electrico</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="fight" id="fight">
+                <label for="fight">Lucha</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="flying" id="flying">
+                <label for="flying">Volador</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="grass" id="grass">
+                <label for="grass">Planta</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="ice" id="ice">
+                <label for="ice">Hielo</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="poison" id="poison">
+                <label for="poison">Veneno</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="rock" id="rock">
+                <label for="rock">Roca</label>
+            </div>
+
+            <div class="grupo-tipo">
+                <input type="checkbox" name="water" id="water">
+                <label for="water">Agua</label>
+            </div>
+
+            
+        </div>
+    </div>
+        <script src="main js"></script>
+    </body>
+</html>
